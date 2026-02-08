@@ -1,6 +1,6 @@
 # Grizzly V-Core: Custom Rat Rig V-Core 3.1 Hybrid
 
-![Grizzly V-Core Project](images/vcore-grizzly.jpg)
+![Grizzly V-Core Project](images/vcore-grizzly.gif)
 
 ## 🚀 Project Overview
 The **Grizzly V-Core** is a comprehensive hardware redesign and modding project based on the open-source **Rat Rig V-Core 3.1**. This hybrid version was engineered to bridge the gap between the V-Core 3.1 and the V-Core 4.
