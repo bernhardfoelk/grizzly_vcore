@@ -50,7 +50,7 @@ The Grizzly V-Core is powered by **Klipper Firmware**. My custom configuration e
 ## 🔧 Technical Stack
 * **Base Frame:** Rat Rig V-Core 3.1 (Remix)
 * **Design Software:** Fusion 360
-* **Manufacturing Focus:** CNC Machining & FDM Printing
+* **Manufacturing Focus:** CNC Machining, Powder coating & FDM Printing
 * **Firmware Environment:** Optimized for Klipper
 
 ## 🌍 External Links
