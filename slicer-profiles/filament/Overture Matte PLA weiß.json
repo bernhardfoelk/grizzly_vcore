@@ -1,0 +1,55 @@
+{
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "fan_cooling_layer_time": [
+        "8"
+    ],
+    "fan_max_speed": [
+        "60"
+    ],
+    "fan_min_speed": [
+        "60"
+    ],
+    "filament_cost": [
+        "21.17"
+    ],
+    "filament_flow_ratio": [
+        "0.9729"
+    ],
+    "filament_max_volumetric_speed": [
+        "42"
+    ],
+    "filament_settings_id": [
+        "Overture Matte PLA weiß"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "inherits": "RatRig Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Overture Matte PLA weiß",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "overhang_fan_speed": [
+        "0"
+    ],
+    "overhang_fan_threshold": [
+        "95%"
+    ],
+    "pressure_advance": [
+        "0.018"
+    ],
+    "version": "1.5.4.0"
+}

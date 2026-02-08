@@ -1,0 +1,58 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "21.17"
+    ],
+    "filament_flow_ratio": [
+        "1.01147"
+    ],
+    "filament_max_volumetric_speed": [
+        "100"
+    ],
+    "filament_retract_lift_below": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "Extrudr Greentec Pro"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "inherits": "RatRig Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Extrudr Greentec Pro",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "overhang_fan_speed": [
+        "0"
+    ],
+    "overhang_fan_threshold": [
+        "95%"
+    ],
+    "pressure_advance": [
+        "0.014"
+    ],
+    "slow_down_layer_time": [
+        "4"
+    ],
+    "version": "1.5.4.0"
+}

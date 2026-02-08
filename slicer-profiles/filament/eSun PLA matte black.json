@@ -1,0 +1,58 @@
+{
+    "close_fan_the_first_x_layers": [
+        "0"
+    ],
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "fan_cooling_layer_time": [
+        "5"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "21.17"
+    ],
+    "filament_flow_ratio": [
+        "1.03"
+    ],
+    "filament_settings_id": [
+        "eSun PLA matte black"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "inherits": "RatRig Generic PLA",
+    "is_custom_defined": "0",
+    "name": "eSun PLA matte black",
+    "nozzle_temperature": [
+        "207"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "207"
+    ],
+    "overhang_fan_speed": [
+        "0"
+    ],
+    "overhang_fan_threshold": [
+        "95%"
+    ],
+    "pressure_advance": [
+        "0.026"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "version": "1.5.4.0"
+}

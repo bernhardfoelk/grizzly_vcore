@@ -1,0 +1,28 @@
+{
+    "from": "User",
+    "inherits": "RatRig V-Core 4 HYBRID 300 0.6 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "G1 E-2 F7200 ; Retraction am Ende des Drucks\nEND_PRINT",
+    "machine_start_gcode": "START_PRINT EXTRUDER_TEMP=[nozzle_temperature_initial_layer] BED_TEMP=[bed_temperature_initial_layer_single] TOTAL_LAYER_COUNT={total_layer_count} X0={first_layer_print_min[0]} Y0={first_layer_print_min[1]} X1={first_layer_print_max[0]} Y1={first_layer_print_max[1]}\n\n; --- Zentrierte dicke Sauglippe (20mm fix) ---\nG90 ; Absolute Positionierung\nM83 ; Relativer Extruder\nG92 E0 ; Reset Extruder\n\n; Fahrt zur Startposition\n; X = (Min+Max)/2 - 10mm | Y = Min - 2mm\nG1 X{((first_layer_print_min[0] + first_layer_print_max[0]) / 2) - 10} Y{first_layer_print_min[1] - 2} Z0.2 F5000 \n\nG1 E10 F300 ; Schiebt 10mm Filament langsam vor (Düse füllen)\nG4 P500 ; 0,5 Sekunden warten, damit der Druck sich stabilisiert\n\n; Die dicke Linie ziehen (20mm nach rechts)\n; X_Ende = Startposition + 20mm\nG1 X{((first_layer_print_min[0] + first_layer_print_max[0]) / 2) + 10} E8 F800\n\nG92 E0 \nG1 Z2 F24000 ; Düse anheben\nM400 ;  Warte, bis alle Bewegungen abgeschlossen sind!\n; --- Ende ---",
+    "name": "Grizzly V-Core 4 HYBRID 300 0.6 nozzle",
+    "printer_settings_id": "Grizzly V-Core 4 HYBRID 300 0.6 nozzle",
+    "retract_lift_below": [
+        "0"
+    ],
+    "retraction_length": [
+        "0.4"
+    ],
+    "retraction_minimum_travel": [
+        "3"
+    ],
+    "version": "2.2.0.4",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0.4"
+    ],
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

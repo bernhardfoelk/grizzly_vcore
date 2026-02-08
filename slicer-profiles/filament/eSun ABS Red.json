@@ -1,0 +1,22 @@
+{
+    "default_filament_colour": [
+        "#FB0000"
+    ],
+    "filament_flow_ratio": [
+        "0.8134"
+    ],
+    "filament_settings_id": [
+        "eSun ABS Red"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "105"
+    ],
+    "inherits": "RatRig Generic ABS",
+    "is_custom_defined": "0",
+    "name": "eSun ABS Red",
+    "version": "1.5.4.0"
+}

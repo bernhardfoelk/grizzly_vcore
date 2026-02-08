@@ -1,0 +1,19 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "filament_settings_id": [
+        "Sunlu Meta PLA - Schwarz"
+    ],
+    "from": "User",
+    "inherits": "RatRig Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Sunlu Meta PLA - Schwarz",
+    "nozzle_temperature": [
+        "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220"
+    ],
+    "version": "1.5.4.0"
+}

@@ -1,0 +1,52 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "fan_cooling_layer_time": [
+        "8"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "16.99"
+    ],
+    "filament_flow_ratio": [
+        "1.01"
+    ],
+    "filament_max_volumetric_speed": [
+        "42"
+    ],
+    "filament_settings_id": [
+        "BambuLab Matte PLA schwarz"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "55"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "55"
+    ],
+    "inherits": "RatRig Generic PLA",
+    "is_custom_defined": "0",
+    "name": "BambuLab Matte PLA schwarz",
+    "nozzle_temperature": [
+        "205"
+    ],
+    "overhang_fan_speed": [
+        "0"
+    ],
+    "overhang_fan_threshold": [
+        "95%"
+    ],
+    "pressure_advance": [
+        "0.005"
+    ],
+    "version": "1.5.4.0"
+}

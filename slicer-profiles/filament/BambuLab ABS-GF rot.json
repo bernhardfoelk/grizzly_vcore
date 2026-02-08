@@ -1,0 +1,43 @@
+{
+    "default_filament_colour": [
+        "#B70000"
+    ],
+    "filament_flow_ratio": [
+        "0.91"
+    ],
+    "filament_max_volumetric_speed": [
+        "100"
+    ],
+    "filament_retract_lift_below": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "BambuLab ABS-GF rot"
+    ],
+    "filament_type": [
+        "ABS-GF"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "inherits": "RatRig Generic ABS",
+    "is_custom_defined": "0",
+    "name": "BambuLab ABS-GF rot",
+    "nozzle_temperature": [
+        "265"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "265"
+    ],
+    "pressure_advance": [
+        "0.007"
+    ],
+    "version": "2.1.1.0"
+}
