@@ -1,63 +1,43 @@
-# Grizzly V-Core: Custom Rat Rig V-Core 3.1 Hybrid
+# 🐻 Grizzly V-Core: A 3.1 to 4.0 Hybrid Journey
 
 ![Grizzly V-Core Project](images/vcore-grizzly.gif)
 
-## 🚀 Project Overview
-The **Grizzly V-Core** is a comprehensive hardware redesign and modding project based on the open-source **Rat Rig V-Core 3.1**. This hybrid version was engineered to bridge the gap between the V-Core 3.1 and the V-Core 4.
+## 🚀 What is the "Grizzly"?
+The **Grizzly V-Core** started as a standard **Rat Rig V-Core 3.1**, but I wanted to push it further. This hybrid build bridges the gap between the 3.1 and the new V-Core 4, mixing custom CNC-machined parts with optimized open-source designs. 
 
-This project demonstrates advanced skills in **Mechanical CAD Design**, **Open-Source Hardware Adaptation**, and **Precision Engineering**.
+It’s my personal take on making a V-Core even more rigid, reliable, and "overbuilt."
 
-## 📁 Project Resources & CAD Data
-Due to the high detail and file size (78 MB+), the full assembly STEP and 3MF files are hosted on Printables to ensure easy version access and community interaction.
+## 🛠 Features & My Mods
+I’ve added or redesigned over 15 parts for this build. The goal was simple: more metal, better cooling, and cleaner wire management.
+
+* **CNC Aluminum Parts:** The motor mounts and belt tensioners (inspired by V-Core 4) are machined from aluminium and powder-coated. They feature integrated bearings for better pulley alignment and decoupled motor mounts to keep vibrations down.
+* **The Grizzly Printhead:** A custom CNC-optimized toolhead designed for high-flow printing. [Check it out on Printables](https://www.printables.com/model/965777-grizzly-cnc-printhead-for-ratrig-v-core-31).
+* **CPAP Part Cooling:** Because you can never have enough air for fast PLA prints. [View Mod](https://www.printables.com/model/965843-cpap-part-cooling-fan-for-rat-rig-v-core-31).
+* **Hybrid Gantry:** Adjusted geometry to fit the new tensioners and lead screw guides.
+* **Active Cooling:** Side panels with dual fans to keep the CoreXY motors cool during long, fast prints.
+* **Carbon Filtration:** A custom cartridge that uses the CPAP intake air to filter fumes through active carbon pellets.
+* **Workshop Ready:** Integrated LED lighting, camera mounts for remote monitoring, and proper Wago/drag chain holders for a clean electronics bay.
+
+> **Maker Note:** I’m a big fan of [Threaded Inserts](https://de.aliexpress.com/item/1005006217825443.html) instead of standard heated ones—they just feel way more solid for these kinds of mechanical loads.
+
+## 📁 Files & Resources
+Since the full assembly is quite heavy (78 MB+), I host the STEP and 3MF files over on Printables so the community can easily grab updates.
 
 | Resource | Link |
 | :--- | :--- |
-| **Full CAD Assembly (STEP)** | [➔ Download from Printables](https://www.printables.com/model/1163879-grizzly-v-core-modded-rat-rig-v-core-31-hybrid) |
-| **Bill of Materials (BOM)** | Integrated within the CAD model (Full Component Tree) |
-| **Slicer Profiles (Orca)** | [➔ View Profiles](./slicer-profiles) |
-| **Klipper Configuration** | [➔ View Config Folder](./config) |
+| **Full CAD Model** | [➔ Printables Project Page](https://www.printables.com/model/1163879-grizzly-v-core-modded-rat-rig-v-core-31-hybrid) |
+| **Klipper Config** | [➔ My printer.cfg & Macros](./config) |
+| **Slicer Profiles** | [➔ Orca Slicer Presets](./slicer-profiles) |
 
-## 🛠 Key Features & Modifications
-The "Grizzly" edition introduces over 15 specific enhancements designed for performance and reliability:
+## 💻 Software Setup
+I'm running **Klipper** with a custom RatOS base. 
+* **Tuning:** I've spent a lot of time fine-tuning Input Shaper and Pressure Advance to get the best out of the rigid frame.
+* **Automation:** Added custom macros for automated leveling (Euclid Probe) and safety checks.
+* **Materials:** The Orca profiles are dialed in for ASA, PC, and CF-Nylon—basically everything that needs a solid, enclosed machine.
 
-* **01: CPAP CNC** – Custom part cooling solution. [View Mod on Printables](https://www.printables.com/model/965843-cpap-part-cooling-fan-for-rat-rig-v-core-31)
-* **02: Hybrid Gantry** – Redesigned gantry to accommodate hybrid kinematics.
-* **03: Printhead** – Specialized CNC-optimized printhead. [View Mod on Printables](https://www.printables.com/model/965777-grizzly-cnc-printhead-for-ratrig-v-core-31)
-* **04: Motor Mounts** – Machined out of aluminium and powder coated. Features integrated bearings for perfect pulley alignment and decoupled motors to reduce vibrations.
-* **05: Belt Tensioners** – Inspired by V-Core 4, machined from aluminium for maximum rigidity.
-* **06: Lead Screw Guides** – Redesigned to fit the new tensioner system.
-* **07: Side Covers** – Integrated dual-fan panels for active CoreXY motor cooling.
-* **08: Y-Endstop** – Custom mount adapted for the new gantry geometry.
-* **10: RSCS (Remote Static Cooling System)** – Sketched solution for high-flow PLA cooling.
-* **11: Integrated Filter** – Custom carbon pellet cartridge utilizing the CPAP intake for air filtration.
-* **12: Wago Holder** – Clean electronics mounting for Wago 221 connectors.
-* **13: Drag Chain Holder** – Optimized cable management for the heated bed.
-* **14: Grizzly LED Holder** – Custom integrated lighting solution.
-* **15: Camera Mount** – Dedicated holder for OV5648 webcams.
-
-> **Technical Note:** Instead of standard heat-set inserts, this design consistently utilizes [Threaded Inserts](https://de.aliexpress.com/item/1005006217825443.html) for enhanced mechanical strength.
-
-*Disclaimer: Please be aware that even though it worked for me, doesn't mean that every model works for you. The model of the printer is, by far, neither finished nor perfect.*
-
-## 💻 Software & Control (Klipper)
-The Grizzly V-Core is powered by **Klipper Firmware**. My custom configuration emphasizes precision and workflow automation:
-
-* **Custom Macros:** Optimized routines for automated leveling, filament handling, and safety checks.
-* **Hybrid Kinematics:** Fine-tuned motion planning specifically for this hybrid frame geometry.
-* **Advanced Tuning:** Implementation of Input Shaping and Pressure Advance to maximize print quality at high speeds.
-* **Orca Slicer Profiles:** Fine-tuned profiles for various materials (ASA, PC, CF-Nylon), optimized for the Grizzly's specific cooling and speed capabilities.
-
-## 🔧 Technical Stack
-* **Base Frame:** Rat Rig V-Core 3.1 (Remix)
-* **Design Software:** Fusion 360
-* **Manufacturing Focus:** CNC Machining, Powder coating & FDM Printing
-* **Firmware Environment:** Optimized for Klipper
-
-## 🌍 External Links
-👉 [Grizzly V-Core on Printables](https://www.printables.com/model/1163879-grizzly-v-core-modded-rat-rig-v-core-31-hybrid)
+*Disclaimer: This is a hobby project. It works great for me, but it's "never finished." Use the files as a base for your own mods, but double-check your tolerances!*
 
 ---
-
 ### ⚖️ License
-This project is licensed under the **MIT License**.
-*(Note: As this is a remix of the Rat Rig V-Core, please respect the original open-source contributions of the Rat Rig team.)*
+Licensed under **MIT**. 
+Respect to the **Rat Rig Team** for their amazing open-source foundation.
